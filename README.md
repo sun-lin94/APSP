@@ -54,7 +54,7 @@ approach.
 Then, the 3 algorithms will use the peer to peer directed graph datasets from
 https://snap.stanford.edu/data/ to evaluate efficiency. 3 sets of timed values
 will be collected from the algorithms, and the graphs will be plotted for
-#node vs time, and #edge vs time.
+num_node vs time, and num_edge vs time.
 The data set does not include any negative links, but the algorithms presented
 are capable of calculating APSP even if there are negative links. There should
 be no negative cycles in the graph.
